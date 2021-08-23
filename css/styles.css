@@ -374,6 +374,7 @@ padding: 0px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  border-color: transparent;
 }
 
 .filtr-button:hover {
