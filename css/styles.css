@@ -46,6 +46,7 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: auto;
 }
 
 
@@ -68,6 +69,8 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-decoration: none;
+  margin: 0;
+padding: 0;
 }
 
 .header-list {
@@ -216,6 +219,7 @@ display: block;
   color: var(--title-text-color);
   text-transform: uppercase;
   text-align: justify;
+  margin-bottom: 10px;
 }
 
 .feature-list {
@@ -254,6 +258,12 @@ display: block;
 .section-title {
   margin-bottom: 50px;
   text-align: center;
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+letter-spacing: 0.03em;
 }
 
 .duty-list .item {
@@ -266,6 +276,13 @@ display: block;
 
 
 /* наша команда */
+.team {
+  padding: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
+
 .section-grey {
   background-color: #F5F4FA;
 }
@@ -304,9 +321,20 @@ display: block;
 
 
 /* футер */
+footer {
+  margin: auto;
+}
 
-.header-logo {
-margin: 0;
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.91;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0;
 padding: 0;
 }
 
@@ -392,13 +420,17 @@ padding: 0px;
 
 
 /* примеры */
+.example {
+  padding: 20px 24px;
+}
+
 .example-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  padding: 20px 24px 0px 24px;
+  /* padding: 20px 24px 0px 24px; */
 }
 
 .example-title-text {
@@ -407,7 +439,7 @@ padding: 0px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  padding: 4px 24px 20px 24px;
+  /* padding: 4px 24px 20px 24px; */
 }
 
 .example-container {
