@@ -95,8 +95,8 @@ padding: 0;
 
 .header-list .header-link {
   display: block;
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   
   font-weight: 500;
   font-size: 14px;
@@ -167,6 +167,8 @@ display: block;
   background-color: #2f303a;  
   text-align: center;
   flex-grow: 1;  
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -199,6 +201,12 @@ display: block;
   padding: 10px 32px;
 }
 
+.btn-fltr {
+  background: #2196f3;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
 /* особенности */
 .visually-hidden {
   position: absolute;
@@ -209,6 +217,10 @@ display: block;
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
+}
+
+.container-features {
+  padding-bottom: 0;
 }
 
 .features {
@@ -242,7 +254,6 @@ display: block;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
-  text-align: justify;
 }
 
 
@@ -340,11 +351,6 @@ padding: 0;
 
 
 .contacts {
-  display: block;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 2097px;
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -456,5 +462,5 @@ padding: 0px;
   margin-right: 0;
 }
 .example-item:nth-last-child(-n + 3) {
-  margin-bottom: -30px ;
+  margin-bottom: 0;
 }
