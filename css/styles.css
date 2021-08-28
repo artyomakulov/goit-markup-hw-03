@@ -12,7 +12,13 @@ body {
 
 /* утилиты */
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -39,7 +45,7 @@ ul {
   padding-bottom: 94px;
 }
 .section:last-child {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .container {
@@ -49,7 +55,6 @@ ul {
   margin: auto;
 }
 
-
 img {
   display: block;
 }
@@ -57,7 +62,7 @@ img {
 /* header */
 
 .header {
-  border-bottom: 1px solid #ECECEC;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-logo {
@@ -70,13 +75,13 @@ img {
   color: var(--title-text-color);
   text-decoration: none;
   margin: 0;
-padding: 0;
+  padding: 0;
 }
 
 .header-list {
   display: flex;
   margin-left: 93px;
-  } 
+}
 
 .header-list .header-item {
   margin-right: 40px;
@@ -87,8 +92,6 @@ padding: 0;
   align-items: center;
 }
 
-
-
 .header-list .header-item:last-child {
   margin-right: 0px;
 }
@@ -97,7 +100,7 @@ padding: 0;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -115,8 +118,6 @@ padding: 0;
   color: var(--accent-color);
   text-decoration: none;
 }
-
-
 
 .link {
   text-decoration: none;
@@ -136,6 +137,12 @@ padding: 0;
 
 /* контакты */
 
+.mail-logo {
+  width: 12px;
+  height: 16px;
+  align-items: center;
+}
+
 .header-contacts {
   display: flex;
   margin-left: auto;
@@ -146,9 +153,8 @@ padding: 0;
 }
 
 .header-contacts .header-item {
-display: block;
+  display: block;
 }
-
 
 .contacts-link {
   font-weight: 500;
@@ -164,9 +170,9 @@ display: block;
 
 /* hero */
 .hero {
-  background-color: #2f303a;  
+  background-color: #2f303a;
   text-align: center;
-  flex-grow: 1;  
+  flex-grow: 1;
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -192,7 +198,6 @@ display: block;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-
 }
 
 .btn {
@@ -236,7 +241,7 @@ display: block;
 
 .feature-list {
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
 }
 
 .feature-list .item {
@@ -256,9 +261,6 @@ display: block;
   color: var(--main-text-color);
 }
 
-
-
-
 /* чем мы занимаемся */
 
 .duty-list {
@@ -270,34 +272,33 @@ display: block;
   margin-bottom: 50px;
   text-align: center;
   font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 42px;
-letter-spacing: 0.03em;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
 }
 
 .duty-list .item {
-  display: block;  
+  display: block;
   flex-direction: row;
 }
 .duty-list .item:not(:last-child) {
   margin-right: 30px;
 }
 
-
 /* наша команда */
 .team {
   padding: 30px;
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .section-grey {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
-
 
 .team-title {
   font-weight: 500;
@@ -322,14 +323,12 @@ border-radius: 0px 0px 4px 4px;
   flex-wrap: wrap;
 }
 .team-list .link {
-  display: block;  
+  display: block;
   flex-direction: row;
-  
 }
 .team-list .link:not(:last-child) {
   margin-right: 30px;
 }
-
 
 /* футер */
 footer {
@@ -346,20 +345,18 @@ footer {
   color: #ffffff;
   text-decoration: none;
   margin: 0;
-padding: 0;
+  padding: 0;
 }
-
 
 .contacts {
   background: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
- 
 }
 
 .contacts-list .item:not(:last-child) {
-margin-bottom: 9px;
-padding: 0px;
+  margin-bottom: 9px;
+  padding: 0px;
 }
 
 .container .contacts-list {
@@ -385,10 +382,9 @@ padding: 0px;
 
 /* ПОРТФОЛИО */
 
-
 /* фильтры */
 .filtr-list {
-  display:flex; 
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
@@ -397,7 +393,6 @@ padding: 0px;
 .filtr-list .filtr-item:not(:last-child) {
   margin-right: 8px;
 }
-
 
 .filtr-button {
   background: #f5f4fa;
@@ -422,8 +417,6 @@ padding: 0px;
   text-align: center;
   letter-spacing: 0.03em;
 }
-
-
 
 /* примеры */
 .example {
@@ -456,7 +449,7 @@ padding: 0px;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #e5e5e5;
 }
 .example-item:nth-child(3n) {
   margin-right: 0;
